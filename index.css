@@ -1,0 +1,83 @@
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.editor-nav__button {
+    padding: 10px 20px;
+    background-color: #ccc;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+/* ... */
+.upload-button {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    padding: 5px 10px;
+    background-color: #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.upload-button input[type="file"] {
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    cursor: pointer;
+}
+
+.upload-icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url('https://drive.google.com/uc?export=view&id=1-iV7uV2c8fEez4zRSIgusopCVZydoYif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 5px;
+}
+
+.upload-text {
+    vertical-align: middle;
+}
+
+/* ... */
+
+
+.editor-nav__button.active {
+    background-color: #999;
+}
+
+.editor-display {
+    position: relative;
+    margin-top: 20px;
+}
+
+.editor-display__umbrella {
+    max-width: 400px;
+}
+
+.editor-display__logo-container {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.editor-display__logo {
+    max-width: 200px;
+}
+
+.editor-controls {
+    margin-top: 20px;
+}
+
